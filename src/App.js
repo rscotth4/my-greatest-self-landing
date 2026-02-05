@@ -433,9 +433,9 @@ export default function MyGreatestSelfLanding() {
           <div className="text-2xl font-bold text-white mb-4">My Greatest Self</div>
           <p className="mb-6">Master Your Mind. Transform Your Life.</p>
           <div className="space-x-6">
-            <a href="#" className="hover:text-white transition">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition">Terms of Service</a>
-            <a href="#" className="hover:text-white transition">Contact</a>
+            <a href="/privacy" className="hover:text-white transition">Privacy Policy</a>
+            <a href="/terms" className="hover:text-white transition">Terms of Service</a>
+            <a href="/contact" className="hover:text-white transition">Contact</a>
           </div>
           <p className="mt-8 text-sm">© 2025 My Greatest Self. All rights reserved.</p>
         </div>
