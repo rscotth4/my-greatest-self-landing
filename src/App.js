@@ -21,18 +21,24 @@ export default function MyGreatestSelfLanding() {
           </button>
         </nav>
 
-        <div className="relative container mx-auto px-6 py-20 md:py-32">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Master Your Mind.<br/>
-              Transform Your Life.
-            </h1>
-            <p className="text-2xl md:text-3xl mb-8 text-slate-300 font-light">
-              Affirmations That Actually Work.
-            </p>
-            <p className="text-xl mb-12 text-slate-400 max-w-3xl mx-auto leading-relaxed">
-              In 1968, Og Mandino's bestselling book "The Greatest Salesman in the World" introduced a powerful methodology: daily affirmation scrolls read three times a day. For over 50 years, this proven approach has transformed millions of lives. Now, My Greatest Self evolves that time-tested system with modern neuroscience, positive psychology, and updated affirmation theory built for today's world.
-            </p>
+     <div className="relative container mx-auto px-6 py-20 md:py-32">
+  <div className="max-w-4xl mx-auto text-center">
+    <div className="flex items-center gap-6 mb-6">
+      <img 
+        src={require('./MGS_logo.png')} 
+        alt="My Greatest Self Logo" 
+        className="w-24 h-24 md:w-32 md:h-32"
+      />
+      <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+        Master Your Mind.<br />Transform Your Life.
+      </h1>
+    </div>
+    <p className="text-2xl mb-8 text-teal-400">
+      A guided system for becoming your greatest self
+    </p>
+    <p className="text-xl mb-12 text-slate-400 max-w-3xl mx-auto leading-relaxed">
+      In 1968, Og Mandino's bestselling book "The Greatest Salesman in the World" introduced a powerful methodology: daily affirmation scrolls read three times a day. For over 50 years, this proven approach has transformed millions of lives. Now, My Greatest Self evolves that time-tested system with modern neuroscience, positive psychology, and updated affirmation theory built for today's world.
+    </p>
             <button className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-12 py-4 rounded-full text-xl font-semibold hover:shadow-2xl transform hover:scale-105 transition">
               Start Your Free 3-Day Trial
             </button>
