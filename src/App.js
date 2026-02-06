@@ -33,7 +33,7 @@ export default function MyGreatestSelfLanding() {
             <p className="text-xl mb-12 text-slate-400 max-w-3xl mx-auto leading-relaxed">
               In 1968, Og Mandino's bestselling book "The Greatest Salesman in the World" introduced a powerful methodology: daily affirmation scrolls read three times a day. For over 50 years, this proven approach has transformed millions of lives. Now, My Greatest Self evolves that time-tested system with modern neuroscience, positive psychology, and updated affirmation theory built for today's world.
             </p>
-            <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-12 py-4 rounded-full text-xl font-semibold hover:shadow-2xl transform hover:scale-105 transition">
+            <button className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-12 py-4 rounded-full text-xl font-semibold hover:shadow-2xl transform hover:scale-105 transition">
               Start Your Free 3-Day Trial
             </button>
             <p className="mt-4 text-slate-400 text-sm">No credit card required • Access the Habit Scroll immediately</p>
@@ -81,13 +81,13 @@ export default function MyGreatestSelfLanding() {
               <h3 className="text-2xl font-bold mb-6 text-slate-900">Each scroll combines:</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <span className="text-blue-600 font-bold mr-3 text-xl">•</span>
+                  <span className="text-sky-500 font-bold mr-3 text-xl">•</span>
                   <div>
                     <strong className="text-slate-900">Narrative and context</strong> that makes the principles feel real and accessible
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-purple-600 font-bold mr-3 text-xl">•</span>
+                  <span className="text-teal-500 font-bold mr-3 text-xl">•</span>
                   <div>
                     <strong className="text-slate-900">NLP language patterns</strong> that speak directly to your subconscious
                   </div>
@@ -114,7 +114,7 @@ export default function MyGreatestSelfLanding() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-2xl mt-12">
+          <div className="bg-gradient-to-br from-sky-50 to-teal-50 p-8 rounded-2xl mt-12">
             <h3 className="text-2xl font-bold mb-6 text-slate-900 text-center">The Three-Reading Ritual</h3>
             <div className="space-y-6">
               <div className="flex items-start">
@@ -228,7 +228,7 @@ export default function MyGreatestSelfLanding() {
             <p className="text-slate-600 mt-6 italic">...and many more</p>
           </div>
 
-          <div className="bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-2xl p-8 text-center">
+          <div className="bg-gradient-to-r from-blue-500 to-teal-500 text-white rounded-2xl p-8 text-center">
             <p className="text-xl mb-2">
               <strong>New scrolls are added monthly</strong>, ensuring you always have fresh challenges and new dimensions of yourself to develop.
             </p>
@@ -331,7 +331,7 @@ export default function MyGreatestSelfLanding() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-8 md:p-12 text-center shadow-xl">
+          <div className="bg-gradient-to-br from-blue-50 to-teal-50 rounded-3xl p-8 md:p-12 text-center shadow-xl">
             {selectedPlan === 'monthly' ? (
               <>
                 <div className="text-6xl font-bold text-slate-900 mb-2">
@@ -376,7 +376,7 @@ export default function MyGreatestSelfLanding() {
               </li>
             </ul>
 
-            <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-12 py-4 rounded-full text-xl font-semibold hover:shadow-2xl transform hover:scale-105 transition w-full md:w-auto">
+            <button className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-12 py-4 rounded-full text-xl font-semibold hover:shadow-2xl transform hover:scale-105 transition w-full md:w-auto">
               Start Your Free Trial
             </button>
           </div>
