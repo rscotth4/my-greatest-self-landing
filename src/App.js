@@ -4,24 +4,33 @@ export default function MyGreatestSelfLanding() {
   const [selectedPlan, setSelectedPlan] = useState('annual');
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Hero Section */}
-      <header className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-            backgroundSize: '32px 32px'
-          }}></div>
+  <div className="min-h-screen bg-white">
+    {/* Sticky Navigation */}
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900 border-b border-slate-800">      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+        <div className="flex items-center gap-3">
+          <img 
+            src={require('./MGS_logo.png')} 
+            alt="My Greatest Self Logo" 
+            className="w-8 h-8"
+          />
+          <div className="text-2xl font-bold text-white">My Greatest Self</div>
         </div>
-        
-        <nav className="relative container mx-auto px-6 py-6 flex justify-between items-center">
-          <div className="text-2xl font-bold">My Greatest Self</div>
-          <button className="bg-white text-slate-900 px-6 py-2 rounded-full font-semibold hover:bg-slate-100 transition">
-            Start Free Trial
-          </button>
-        </nav>
+        <button className="bg-white text-slate-900 px-6 py-2 rounded-full font-semibold hover:bg-slate-100 transition">
+          Start Free Trial
+        </button>
+      </div>
+    </nav>
+      <div className="h-16"></div>
+    {/* Hero Section */}
+    <header className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute inset-0" style={{
+          backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+          backgroundSize: '32px 32px'
+        }}></div>
+      </div>
 
-     <div className="relative container mx-auto px-6 py-20 md:py-32">
+     <div className="relative container mx-auto px-6 py-10 md:py-22">
   <div className="max-w-4xl mx-auto text-center">
     <div className="flex items-center gap-6 mb-6">
       <img 
@@ -48,7 +57,7 @@ export default function MyGreatestSelfLanding() {
       </header>
 
       {/* The Problem Section */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-10 bg-slate-50">
         <div className="container mx-auto px-6 max-w-4xl">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-slate-900">
             Why Most Affirmations Fail
@@ -74,7 +83,7 @@ export default function MyGreatestSelfLanding() {
       </section>
 
       {/* The Solution Section */}
-      <section className="py-20 bg-white">
+      <section className="py-10 bg-white">
         <div className="container mx-auto px-6 max-w-4xl">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-slate-900">
             Scrolls Aren't Affirmations.<br/>They're Immersive Psychological Frameworks.
@@ -157,7 +166,7 @@ export default function MyGreatestSelfLanding() {
       </section>
 
       {/* How It Works */}
-      <section className="py-20 bg-slate-900 text-white">
+      <section className="py-10 bg-slate-900 text-white">
         <div className="container mx-auto px-6 max-w-5xl">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
             How It Works
@@ -196,16 +205,16 @@ export default function MyGreatestSelfLanding() {
       </section>
 
       {/* The Scroll Library */}
-      <section className="py-20 bg-gradient-to-br from-slate-50 to-white">
+      <section className="py-10 bg-gradient-to-br from-slate-50 to-white">
         <div className="container mx-auto px-6 max-w-5xl">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 text-slate-900">
             A Growing Library of Transformation
           </h2>
-          <p className="text-xl text-center text-slate-600 mb-16 max-w-3xl mx-auto">
+          <p className="text-xl text-center text-slate-600 mb-8 max-w-3xl mx-auto">
             Develop every aspect of your character, one scroll at a time.
           </p>
           
-          <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-12">
+          <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8 mb-8">
             <p className="text-lg text-slate-700 leading-relaxed mb-6">
               Every journey begins with the <strong className="text-slate-900">Scroll of Habit</strong>—intentionally designed as your foundation. This first scroll builds the consistency and ritual necessary for all other transformations to take root. Master the practice itself, then expand into whichever characteristics call to you.
             </p>
@@ -250,7 +259,7 @@ export default function MyGreatestSelfLanding() {
       </section>
 
       {/* Evening Reflection & Journaling */}
-      <section className="py-20 bg-white">
+      <section className="pt-5 pb-10 bg-white">
         <div className="container mx-auto px-6 max-w-4xl">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-8 text-slate-900">
             The Practice That Changes Everything
@@ -259,7 +268,7 @@ export default function MyGreatestSelfLanding() {
             Reading creates awareness. Journaling creates transformation.
           </p>
           
-          <div className="space-y-6 text-lg text-slate-700 leading-relaxed mb-12">
+          <div className="space-y-6 text-lg text-slate-700 leading-relaxed mb-10">
             <p>
               After your evening scroll reading, you'll be prompted to reflect on your day through guided journaling. This isn't just writing—it's structured self-analysis designed to accelerate your growth.
             </p>
@@ -288,7 +297,7 @@ export default function MyGreatestSelfLanding() {
           </div>
 
           <div className="space-y-6 text-lg text-slate-700 leading-relaxed">
-            <div className="bg-slate-900 text-white p-8 rounded-2xl">
+            <div className="bg-slate-900 text-white p-6 rounded-2xl">
               <h3 className="text-2xl font-bold mb-4">Why This Works</h3>
               <p className="text-slate-200">
                 Affirmations tell your mind what's possible. Journaling shows your mind the evidence that it's happening. This combination of aspiration and reflection creates rapid, lasting change.
@@ -303,7 +312,7 @@ export default function MyGreatestSelfLanding() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-10 bg-slate-50">
         <div className="container mx-auto px-6 max-w-4xl">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-slate-900">
             Simple, Transparent Pricing
@@ -390,9 +399,9 @@ export default function MyGreatestSelfLanding() {
       </section>
 
       {/* Your Story Section */}
-      <section className="py-20 bg-white">
+      <section className="py-10 bg-white">
         <div className="container mx-auto px-6 max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-slate-900">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-10 text-slate-900">
             15 Years in the Making
           </h2>
           <div className="space-y-6 text-lg text-slate-700 leading-relaxed">
@@ -416,7 +425,7 @@ export default function MyGreatestSelfLanding() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-20 bg-gradient-to-br from-slate-900 via-blue-900 to-purple-900 text-white text-center">
+      <section className="py-10 bg-gradient-to-br from-slate-900 via-blue-900 to-purple-900 text-white text-center">
         <div className="container mx-auto px-6 max-w-3xl">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Become Your Greatest Self?
