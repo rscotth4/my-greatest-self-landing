@@ -3,6 +3,10 @@ import React, { useState } from 'react';
 export default function MyGreatestSelfLanding() {
   const [selectedPlan, setSelectedPlan] = useState('annual');
 
+  const goToApp = () => {
+    window.location.href = 'https://app.mygreatestself.com';
+  };
+
   return (
   <div className="min-h-screen bg-white">
     {/* Sticky Navigation */}
@@ -16,7 +20,9 @@ export default function MyGreatestSelfLanding() {
           />
     <div className="text-lg md:text-2xl font-bold text-white">My Greatest Self</div>
         </div>
-        <button className="bg-white text-slate-900 px-4 py-2 md:px-6 text-sm md:text-base rounded-full font-semibold hover:bg-slate-100 transition">
+        <button 
+          onClick={goToApp}
+          className="bg-white text-slate-900 px-4 py-2 md:px-6 text-sm md:text-base rounded-full font-semibold hover:bg-slate-100 transition">
           Start Free Trial
         </button>
       </div>
@@ -49,7 +55,9 @@ export default function MyGreatestSelfLanding() {
     <p className="text-xl mb-12 text-slate-400 max-w-3xl mx-auto leading-relaxed">
       In 1968, Og Mandino's bestselling book "The Greatest Salesman in the World" introduced a powerful methodology: daily affirmation scrolls read three times a day. For over 50 years, this proven approach has transformed millions of lives. Now, My Greatest Self evolves that time-tested system with modern neuroscience, positive psychology, and updated affirmation theory built for today's world.
     </p>
-            <button className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-12 py-4 rounded-full text-xl font-semibold hover:shadow-2xl transform hover:scale-105 transition">
+            <button 
+              onClick={goToApp}
+              className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-12 py-4 rounded-full text-xl font-semibold hover:shadow-2xl transform hover:scale-105 transition">
               Start Your Free 3-Day Trial
             </button>
             <p className="mt-4 text-slate-400 text-sm">No credit card required • Access the Habit Scroll immediately</p>
@@ -392,7 +400,9 @@ export default function MyGreatestSelfLanding() {
               </li>
             </ul>
 
-            <button className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-12 py-4 rounded-full text-xl font-semibold hover:shadow-2xl transform hover:scale-105 transition w-full md:w-auto">
+            <button 
+              onClick={goToApp}
+              className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-12 py-4 rounded-full text-xl font-semibold hover:shadow-2xl transform hover:scale-105 transition w-full md:w-auto">
               Start Your Free Trial
             </button>
           </div>
@@ -434,7 +444,9 @@ export default function MyGreatestSelfLanding() {
           <p className="text-xl mb-10 text-slate-300">
             Start your free 3-day trial today. No credit card required.
           </p>
-          <button className="bg-white text-slate-900 px-12 py-4 rounded-full text-xl font-semibold hover:shadow-2xl transform hover:scale-105 transition">
+          <button 
+            onClick={goToApp}
+            className="bg-white text-slate-900 px-12 py-4 rounded-full text-xl font-semibold hover:shadow-2xl transform hover:scale-105 transition">
             Start Free Trial
           </button>
           <p className="mt-8 text-white">
